@@ -1,6 +1,23 @@
 .App {
   text-align: center;
 }
+.MuiContainer-root {
+  width: 50%;
+  height: 20%;
+  margin: auto;
+  padding: 30px;
+  background-color: aliceblue;
+  display: flex;
+}
+.MuiContainer-root > button {
+  margin: 20px;
+}
+.error {
+  color: red;
+  position: absolute;
+  top: 69px;
+  left: 46%;
+}
 
 .App-logo {
   height: 40vmin;
